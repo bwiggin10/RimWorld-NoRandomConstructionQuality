@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>No Random Construction Quality</name>
+  <author>BallC - Updated by Ben</author>
+  <supportedVersions>
+	<li>1.1</li>
+	<li>1.2</li>
+  </supportedVersions>
+  <packageId>ben.nrcq</packageId>
+	<description>
+This mod simply overrides the random quality rolls when you build furniture/items and instead uses a static function to determine what quality the resulting item is. 
+
+Skill Level Range:Resulting Item Quality 
+0-3 Awful 
+4-7 Poor 
+8-10 Normal 
+11-13 Good 
+14-16 Excellent 
+17-19 Masterwork 
+20-20 Legendary 
+	</description>
+</ModMetaData>

@@ -1,0 +1,8 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\NoRandomConstructionQuality\Assemblies\NoRandomConstructionQuality.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\NoRandomConstructionQuality\Source\NoRandomConstructionQuality\obj\Debug\NoRandomConstructionQuality.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\NoRandomConstructionQuality\Source\NoRandomConstructionQuality\obj\Debug\NoRandomConstructionQuality.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\NoRandomConstructionQuality\Source\NoRandomConstructionQuality\obj\Debug\NoRandomConstructionQuality.dll
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\2075484620\Assemblies\NoRandomConstructionQuality.dll
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\2075484620\Source\NoRandomConstructionQuality\obj\Debug\NoRandomConstructionQuality.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\2075484620\Source\NoRandomConstructionQuality\obj\Debug\NoRandomConstructionQuality.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\2075484620\Source\NoRandomConstructionQuality\obj\Debug\NoRandomConstructionQuality.dll

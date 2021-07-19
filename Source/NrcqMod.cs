@@ -5,7 +5,6 @@ namespace NoRandomConstructionQuality
 {
     public class NrcqMod : Mod
     {
-
         public static Nrcq_settings settings;
 
         public NrcqMod(ModContentPack content) : base(content)

@@ -6,7 +6,6 @@ namespace NoRandomConstructionQuality
     public class Nrcq_settings : ModSettings
     {
         public bool crafting_notification = false;
-
         public void DoWindowsContents(Rect canvas)
         {
             Listing_Standard ls = new Listing_Standard

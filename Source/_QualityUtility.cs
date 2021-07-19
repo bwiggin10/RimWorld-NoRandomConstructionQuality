@@ -65,7 +65,6 @@ namespace NoRandomConstructionQuality
             {
                 quality = _QualityUtility.AddLevels(quality, 2);
             }
-
             return quality;
         }
 
@@ -73,8 +72,6 @@ namespace NoRandomConstructionQuality
         {
             return (QualityCategory)Math.Min((byte)quality + levels, (byte)QualityCategory.Legendary);
         }
-
-
 
         public static void _SendCraftNotification(Thing thing, Pawn worker)
 

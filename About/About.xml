@@ -20,4 +20,14 @@ Skill Level Range:Resulting Item Quality
 17-19 Masterwork 
 20-20 Legendary 
 	</description>
+	<modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+	<loadAfter>
+		<li>VanillaExpanded.VanillaTraitsExpanded</li>
+	</loadAfter>
 </ModMetaData>

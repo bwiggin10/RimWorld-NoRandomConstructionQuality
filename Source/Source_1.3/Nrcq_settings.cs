@@ -7,7 +7,7 @@ namespace NoRandomConstructionQuality
     {
         public bool crafting_notification = false;
 
-        public void DoWindowsContents(Rect canvas)
+        public void DoWindowContents(Rect canvas)
         {
             Listing_Standard ls = new Listing_Standard
             {
@@ -18,11 +18,10 @@ namespace NoRandomConstructionQuality
             ls.CheckboxLabeled(text_cn, ref crafting_notification, Translator.Translate("Notifs"));
             ls.End();
         }
+
         public override void ExposeData()
         {
             Scribe_Values.Look(ref crafting_notification, "crafting_notifications", false, false);
         }
-
     }
-
 }

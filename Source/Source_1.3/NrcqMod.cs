@@ -18,7 +18,9 @@ namespace NoRandomConstructionQuality
             return "No Random Construction Quality";
         }
 
-        public override void DoSettingsWindowContents(Rect canvas) { settings.DoWindowsContents(canvas); }
-
+        public override void DoSettingsWindowContents(Rect canvas) 
+        { 
+            settings.DoWindowContents(canvas); 
+        }
     }
 }

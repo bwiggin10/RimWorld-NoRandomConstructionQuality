@@ -62,27 +62,5 @@ namespace NoRandomConstructionQuality
             return (QualityCategory)Math.Min((int)quality + levels, (int)QualityCategory.Legendary);
         }
 
-        public static void _SendCraftNotification(Thing thing, Pawn worker)
-
-        {
-            if (worker == null || NrcqMod.settings.crafting_notification == false)
-            {
-                return;
-            }
-            CompQuality compQuality = thing.TryGetComp<CompQuality>();
-            if (compQuality == null)
-            {
-                return;
-            }
-
-            if (compQuality.Quality == QualityCategory.Masterwork)
-            {
-                Find.LetterStack.ReceiveLetter("LetterCraftedMasterworkLabel".Translate(), "LetterCraftedMasterworkMessage".Translate(worker.LabelShort, thing.LabelShort, worker.Named("WORKER"), thing.Named("CRAFTED")), LetterDefOf.PositiveEvent, thing, null, null);
-            }
-            else if (compQuality.Quality == QualityCategory.Legendary)
-            {
-                Find.LetterStack.ReceiveLetter("LetterCraftedLegendaryLabel".Translate(), "LetterCraftedLegendaryMessage".Translate(worker.LabelShort, thing.LabelShort, worker.Named("WORKER"), thing.Named("CRAFTED")), LetterDefOf.PositiveEvent, thing, null, null);
-            }
-        }
     }
 }
